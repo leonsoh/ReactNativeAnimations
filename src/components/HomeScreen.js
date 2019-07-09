@@ -18,6 +18,10 @@ export default class HomeScreen extends React.Component {
               style={styles.buttonStyle}
               title="Go to Absolute Position"
               onPress={() => navigate('AbsolutePosition')}/>
+          <Button
+              style={styles.buttonStyle}
+              title="Go to Interpolation"
+              onPress={() => navigate('Interpolation')}/>
         </View>
     );
   }
@@ -32,6 +36,5 @@ const styles = {
     padding: 20,
     borderRadius: 20,
     alignItems: 'center',
-    backgroundColor: '#ff0592'
   }
 };

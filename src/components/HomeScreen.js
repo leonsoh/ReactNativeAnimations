@@ -10,12 +10,14 @@ export default class HomeScreen extends React.Component {
             style={styles.buttonStyle}
             title="Go to Timing Opacity"
             onPress={() => navigate('TimingOpacity')}/>
-
           <Button
               style={styles.buttonStyle}
               title="Go to Size Manipulation"
               onPress={() => navigate('SizeManipulation')}/>
-
+          <Button
+              style={styles.buttonStyle}
+              title="Go to Absolute Position"
+              onPress={() => navigate('AbsolutePosition')}/>
         </View>
     );
   }

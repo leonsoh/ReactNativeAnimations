@@ -2,6 +2,9 @@ import React from "react";
 import {View, Button } from "react-native";
 
 export default class HomeScreen extends React.Component {
+  static navigationOptions = {
+    title: 'React Native Animations',
+  };
   render() {
     const { navigate } = this.props.navigation;
     return (
@@ -22,6 +25,10 @@ export default class HomeScreen extends React.Component {
               style={styles.buttonStyle}
               title="Go to Interpolation"
               onPress={() => navigate('Interpolation')}/>
+          <Button
+              style={styles.buttonStyle}
+              title="Go to Parallel"
+              onPress={() => navigate('Parallel')}/>
         </View>
     );
   }

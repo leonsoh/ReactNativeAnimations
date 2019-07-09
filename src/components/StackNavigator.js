@@ -5,6 +5,7 @@ import TimingOpacity from "./TimingOpacity";
 import SizeManipulation from "./SizeManipulation";
 import AbsolutePosition from "./AbsolutePosition";
 import Interpolation from "./Interpolation";
+import ParallelAnimation from "./Parallel";
 
 
 
@@ -14,6 +15,7 @@ const MainNavigator = createStackNavigator({
       SizeManipulation: {screen: SizeManipulation},
       AbsolutePosition: {screen: AbsolutePosition},
       Interpolation: {screen: Interpolation},
+      Parallel: {screen: ParallelAnimation},
     },
     { headerMode: 'screen',
       cardStyle: { backgroundColor: '#eee' }
